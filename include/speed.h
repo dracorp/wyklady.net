@@ -1,23 +1,23 @@
-/* 
+/*
  * VLI Multiplication Compo
  *   (Speed Test Module)
  *
  * Author: gynvael.coldwind//vx
  * Desc  : just include this module at the begining of your source
  */
- 
+
 #ifndef TM__H
   #define TM__H
-  
+
   #include<time.h>
   #include<stdio.h>
-  
+
   void
   tcount( void )
   {
     static long   start, finish;
     static double dur;
-    
+
     if( !finish )
     {
       /* the first call
@@ -26,7 +26,7 @@
       finish = 1;
       return;
     }
-    
+
     /* the second call
      */
     finish = clock( );
@@ -37,5 +37,5 @@
     finish = 0;
   }
 #endif
- 
- 
+
+

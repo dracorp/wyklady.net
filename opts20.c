@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-#include "rtdsc.c"
-#include "speed.h"
+#include "include/rtdsc.c"
+#include "include/speed.h"
 
 float sintab[] = {
   0.000000,   0.010000,   0.019999,   0.029995,   0.039989,   0.049979,   0.059964,   0.069943,   0.079915,   0.089879, 

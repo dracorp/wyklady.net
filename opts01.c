@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "rtdsc.c"
-#include "speed.h"
+#include "include/rtdsc.c"
+#include "include/speed.h"
 
 int sth[20*1024*1024]; // 80mb!!!
 

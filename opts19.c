@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-#include "rtdsc.c"
-#include "speed.h"
+#include "include/rtdsc.c"
+#include "include/speed.h"
 
 int
 main(void)
